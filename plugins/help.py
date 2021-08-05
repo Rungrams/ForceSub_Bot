@@ -29,7 +29,7 @@ def _start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/{update_channel}")
+                            InlineKeyboardButton("⚙️Join Updates Channel⚙️", url=f"https://t.me/{update_channel}")
                         ]
                     ]
                 ),
@@ -42,11 +42,12 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                           InlineKeyboardButton("CHANNEL📢", url="https://t.me/tobot_update"),
+                           InlineKeyboardButton("GROUP👥", url="https://t.me/tobotupdate")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                           InlineKeyboardButton("REPO🤖", url="https://t.me/bot_repo"),
+                           InlinekeyboardButton("🔔SUBSCRIBE🔔",url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                      ]
                  ]
              ),
@@ -59,11 +60,12 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("CHANNEL📢", url="https://t.me/tobot_update"),
+                    InlineKeyboardButton("GROUP👥", url="https://t.me/tobotupdate")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("REPO🤖", url="https://t.me/bot_repo"),
+                    InlinekeyboardButton("🔔SUBSCRIBE🔔",url="https://youtube.com/channel/UC1SeMwgyNDi_n4T8cbgVjKQ")
                 ]
             ]
         ),
